@@ -1,0 +1,135 @@
+.sign-up {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: hsl(231 15% 18% / 1); */
+}
+
+.box {
+    padding-bottom: 50px;
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+}
+
+.light-box {
+    background-color: white;
+    box-shadow: 2px 3px 17px rgba(62, 62, 62, 0.274);
+}
+
+.dark-box {
+    background-color: hsl(231 15% 18% / 1);
+
+}
+
+.light-txt {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.dark-txt {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.sign-up .box form {
+    width: 80%;
+    color: #f8f8f2;
+    font-size: 0.875rem;
+}
+
+.sign-up .box form input {
+    background-color: transparent;
+    height: 3rem;
+    margin-bottom: 20px;
+}
+
+.sign-up .box form .light-txt {
+    color: black;
+}
+
+.sign-up .box form .dark-txt {
+    color: white;
+}
+
+.sign-up .box form .dark-txt::placeholder {
+    color: white;
+}
+
+.sign-up .box form .light-txt::placeholder {
+    color: rgba(0, 0, 0, 0.468);
+}
+
+.light-label {
+    color: black;
+    font-size: 16px;
+}
+
+.dark-label {
+    color: white;
+}
+
+
+.sign-up .box form input:focus {
+    box-shadow: 0 0 0 0 transparent;
+    overflow: none;
+}
+
+.sign-up .box form button {
+    --tw-border-opacity: 1;
+    border-color: hsl(326 100% 74% / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    outline-color: hsl(326 100% 74% / 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.light-btn2 {
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
+
+.dark-btn2 {
+    background-color: pink;
+    color: black;
+}
+
+.sign-up .box form .pp {
+    text-align: center;
+    font-size: 16px;
+}
+
+.light-pp {
+    color: black;
+}
+
+
+.sign-up .box form p .navlinko {
+    /* color: palevioletred; */
+    text-decoration: none;
+}
+
+.light-navlink {
+    color: rgb(0, 106, 255);
+}
+
+.dark-navlink {
+    color: pink;
+}

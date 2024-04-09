@@ -1,0 +1,112 @@
+.hero-bag {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    padding: 100px 0 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.final {
+    display: flex;
+    align-items: flex-start;
+}
+
+.final-right {
+    height: 100%;
+}
+
+.remove {
+    /* color: blue; */
+    cursor: pointer;
+}
+
+.light-remo {
+    color: blue;
+}
+
+.dark-remo {
+    color: pink;
+}
+
+.final-left {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.final-img {
+    width: 120px;
+    height: 130px;
+}
+
+.final-img img {
+    width: 120px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.final-amount {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.final-select {
+    width: fit-content;
+    padding: 0 3px;
+    height: fit-content;
+}
+
+.final-remove a {
+    text-decoration: none;
+}
+
+.light-tax {
+    background-color: rgb(229, 231, 235);
+    color: black;
+}
+
+.dark-tax {
+    background-color: gray;
+    color: white;
+}
+
+.final-tax {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: red; */
+    border-radius: 20px;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shiping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tax {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.final-btn {
+    margin-top: 25px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
